@@ -42,7 +42,7 @@ export default function () {
 
                             <div className="middlee">
 
-                                <a className="btnn" href="mailto:viniciusfranco.sarton@gmail.com?subject=Oportunidade&body= ">
+                                <a className="btnn" href="mailto:suport@sarton.com.br?subject=Oportunidade&body= ">
                                     <i className="fab fa-google"></i>
                                 </a>
 

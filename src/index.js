@@ -1,9 +1,25 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import Banner from "./Components/Banner";
+import Header from "./Components/Header";
+import Contacts from "./Components/Contacts";
+import Footer from "./Components/Footer";
+import InfoGerais from "./Pages/InfoGerais";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div>Teste</div>
+  <BrowserRouter>
+        <Header />
+        <Banner />
+
+        <Routes>
+            <Route path="/" element={<InfoGerais />} />
+        </Routes>
+
+        <Contacts />
+        <Footer />
+    </BrowserRouter>
 );

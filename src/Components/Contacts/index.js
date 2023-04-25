@@ -13,7 +13,7 @@ export default function () {
 
             <div className="contatos-juncao">
                 <div className="div-email">
-                    <form action="https://formsubmit.co/seuemail@email.com" method="POST">
+                    <form action="https://formsubmit.co/suport@sarton.com.br" method="POST">
                         <div className="input-group mb-2">
                             <input type="text" name="name" aria-label="First name" className=" form-control bg-dark p-2 text-light"
                                 required placeholder="Digite seu nome completo" />

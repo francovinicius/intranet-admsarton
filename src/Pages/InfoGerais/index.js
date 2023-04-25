@@ -38,7 +38,7 @@ export default function () {
                             <div className="col-md-8">
                                 <div className="card-body" id="normas-diretrizes">
                                     <a href="/treinamentogalpao">
-                                        <h5 className="card-title text-center">Setores Financeiro e Compras</h5>
+                                        <h5 className="card-title text-center">Dep. Financeiro e Compras</h5>
                                     </a>
                                     <p className="card-text">Neste card você encontrará todos os processos relacionados ao respectivo setor.</p>
                                     <p className="card-text"><small className="text-muted">Last updated 25-04-2023</small></p>
@@ -55,7 +55,7 @@ export default function () {
                             <div className="col-md-8">
                                 <div className="card-body" id="normas-diretrizes">
                                     <a href="/treinamentogalpao">
-                                        <h5 className="card-title text-center">Setor de Serviços Patrimoniais</h5>
+                                        <h5 className="card-title text-center">Dep. de Serviços Patrimoniais</h5>
                                     </a>
                                     <p className="card-text">Neste card você encontrará todos os processos relacionados ao respectivo setor.</p>
                                     <p className="card-text"><small className="text-muted">Last updated 25-04-2023</small></p>

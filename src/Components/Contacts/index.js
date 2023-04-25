@@ -2,6 +2,7 @@ import style from "./Contacts.css"
 
 export default function () {
     return (
+
         <section className="contatos" id="contatos">
 
             <div className="margin"></div>
@@ -57,5 +58,6 @@ export default function () {
 
                         </div>
                     </section>
-                    )
+                    
+    )
 }

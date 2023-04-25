@@ -36,7 +36,7 @@ export default function () {
                         <input type="hidden" name="_subject" value="Novo Contato!"/>
                             <input type="text" name="_honey" classNameName="input-escondido"/>
                                 <input type="hidden" name="_captcha" value="false"/>
-                                    <input type="hidden" name="_next" value="https://envio-email-por-form.vercel.app/" target="blank" />
+                                    <input type="hidden" name="_next" value="https://intranet-admsarton.vercel.app/" target="blank" />
                                 </form>
                             </div>
 
@@ -58,6 +58,6 @@ export default function () {
 
                         </div>
                     </section>
-                    
+
     )
 }

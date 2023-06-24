@@ -9,7 +9,7 @@ export default function () {
             <Presentation />
 
             <section className="info-gerais" id="info-gerais">
-                <h2>Selecione Seu Setor</h2>
+                <h2>Para processos específicos</h2>
 
                 <div className="div-card-info d-flex justify-content-center" id="acuttis-tutoriais">
 
@@ -100,6 +100,28 @@ export default function () {
 
                 </div>
 
+                <h2>Informações Gerais</h2>
+
+                <div className="div-card-info d-flex justify-content-center" id="acuttis-tutoriais">
+
+                    <div className="card mb-3 card-info card-style">
+                        <div className="row div-column g-0">
+                            <div className="div-img col-md-4">
+                                <img src="./assets/img/acuttis.svg" className="img-fluid rounded-start" alt="..." />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="card-body" id="normas-diretrizes">
+                                    <a href="/treinamentogalpao">
+                                        <h5 className="card-title text-center">Dúvidas Acuttis</h5>
+                                    </a>
+                                    <p className="card-text">Problemas com o sistema de ponto? Acesse suporte para obter ajuda no link acima.</p>
+                                    <p className="card-text"><small className="text-muted">Last updated 25-04-2023</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
 
 
             </section>

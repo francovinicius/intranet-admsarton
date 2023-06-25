@@ -1,8 +1,8 @@
 import style from "./Contacts.css"
+import Location  from "./Location"
 
 export default function () {
     return (
-
         <section className="contatos" id="contatos">
 
             <div className="margin"></div>
@@ -14,7 +14,7 @@ export default function () {
 
             <div className="contatos-juncao">
                 <div className="div-email">
-                    <form action="https://formsubmit.co/suport@sarton.com.br" method="POST">
+                    <form action="https://formsubmit.co/seuemail@email.com" method="POST">
                         <div className="input-group mb-2">
                             <input type="text" name="name" aria-label="First name" className=" form-control bg-dark p-2 text-light"
                                 required placeholder="Digite seu nome completo" />
@@ -36,13 +36,13 @@ export default function () {
                         <input type="hidden" name="_subject" value="Novo Contato!"/>
                             <input type="text" name="_honey" classNameName="input-escondido"/>
                                 <input type="hidden" name="_captcha" value="false"/>
-                                    <input type="hidden" name="_next" value="https://intranet-admsarton.vercel.app/" target="blank" />
+                                    <input type="hidden" name="_next" value="https://envio-email-por-form.vercel.app/" target="blank" />
                                 </form>
                             </div>
 
                             <div className="middlee">
 
-                                <a className="btnn" href="mailto:suport@sarton.com.br?subject=Oportunidade&body= ">
+                                <a className="btnn" href="mailto:viniciusfranco.sarton@gmail.com?subject=Oportunidade&body= ">
                                     <i className="fab fa-google"></i>
                                 </a>
 
@@ -57,7 +57,8 @@ export default function () {
                             </div>
 
                         </div>
-                    </section>
 
-    )
+                        <Location />
+                    </section>
+                    )
 }
